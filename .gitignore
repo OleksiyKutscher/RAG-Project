@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# ChromaDB
+backend/chroma_db/
+
+# Node
+frontend/node_modules/
+
+# OS
+.DS_Store
+EOF
