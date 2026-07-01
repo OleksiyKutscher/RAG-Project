@@ -1,0 +1,36 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #121212;
+    color: #fff;
+}
+
+.heading-container {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+
+  h1 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+}
+
+.messages-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.initial-message {
+  color: #666;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.thinking-message {
+  color: #666;
+  text-align: center;
+}
